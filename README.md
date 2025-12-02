@@ -1,3 +1,10 @@
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
+![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-F2C811?logo=powerbi&logoColor=black)
+![MySQL](https://img.shields.io/badge/SQL-MySQL-blue?logo=mysql)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Cleaning-150458?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-1.26+-blue?logo=numpy)
+![DAX](https://img.shields.io/badge/DAX-Data%20Modeling-yellow)
+
 📊 Amazon Sales Analytics Dashboard
 
 An end-to-end data analytics project using
