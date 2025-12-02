@@ -5,7 +5,7 @@
 ![NumPy](https://img.shields.io/badge/NumPy-1.26+-blue?logo=numpy)
 ![DAX](https://img.shields.io/badge/DAX-Data%20Modeling-yellow)
 
-📊 Amazon Sales Analytics Dashboard
+# 📊 Amazon Sales Analytics Dashboard
 
 An end-to-end data analytics project using
 Python · SQL · Power BI
