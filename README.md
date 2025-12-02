@@ -10,15 +10,15 @@ Python · SQL · Power BI
 
 This project analyzes 100,000 Amazon sales records to uncover insights related to:
 
-Sales performance
+- Sales performance
 
-Customer purchasing behavior
+- Customer purchasing behavior
 
-Product & category trends
+- Product & category trends
 
-Geographic patterns
+- Geographic patterns
 
-Revenue drivers
+- Revenue drivers
 
 
 The analysis covers the full data pipeline:
@@ -37,29 +37,18 @@ This project demonstrates real-world data analyst skills used in business intell
 
 The dataset includes:
 
-Order details: orderid, orderdate, status, payment method
+- Order details: orderid, orderdate, status, payment method
 
-Customer information: customername, city, state, country
+- Customer information: customername, city, state, country
 
-Product info: productname, category, brand
+- Product info: productname, category, brand
 
-Sales metrics: quantity, unitprice, total amount, discount, tax, shipping cost
+- Sales metrics: quantity, unitprice, total amount, discount, tax, shipping cost
 
-Feature-engineered fields:
-
-order_year, order_month, order_quarter
-
-gross_amount
-
-discount_amount
-
-net_sales
-
-
+- Feature-engineered fields: order_year, order_month, order_quarter, gross_amount, discount_amount, net_sales
 
 Total Rows: 100,000
 Total Columns: 27
-
 
 ---
 
@@ -67,25 +56,25 @@ Total Columns: 27
 
 🔧 Tasks Performed
 
-Removed whitespace from text columns
+- Removed whitespace from text columns
 
-Converted datatypes (dates, numerics, text)
+- Converted datatypes (dates, numerics, text)
 
-Created new fields:
+- Created new fields:
 
-Gross Amount = Quantity × Unit Price
+1. Gross Amount = Quantity × Unit Price
 
-Discount Amount = Gross × Discount
+2. Discount Amount = Gross × Discount
 
-Net Sales = Gross – Discount
+3. Net Sales = Gross – Discount
 
-Year, Month, Quarter
-
-
-Exported cleaned dataset → Amazon_cleaned.csv
+4. Year, Month, Quarter
 
 
-Python was used to ensure clean input for SQL + Power BI.
+- Exported cleaned dataset → Amazon_cleaned.csv
+
+
+- Python was used to ensure clean input for SQL + Power BI.
 
 
 ---
@@ -96,25 +85,25 @@ SQL was used to explore customer, product, and geographic performance.
 
 🔍 Key SQL Queries:
 
-Total revenue
+a. Total revenue
 
-Monthly revenue trends
+b. Monthly revenue trends
 
-Category revenue ranking
+c. Category revenue ranking
 
-Top 10 products
+d. Top 10 products
 
-Top 10 customers
+e. Top 10 customers
 
-City-level revenue
+f. City-level revenue
 
-Discount impact
+g. Discount impact
 
-Payment method distribution
+h. Payment method distribution
 
-Seller performance
+i. Seller performance
 
-Customer Lifetime Value (CLV)
+j. Customer Lifetime Value (CLV)
 
 
 📌 Sample Query (Top Customers)
@@ -141,24 +130,24 @@ The dashboard is designed across 3 interactive pages, using a consistent theme a
 
 ⭐ KPIs
 
-Total Sales: 84.24M
+1. Total Sales: 84.24M
 
-Total Orders: 100K
+2. Total Orders: 100K
 
-Total Quantity Sold: 300K
+3. Total Quantity Sold: 300K
 
-Total Discount: 6.78M
+4. Total Discount: 6.78M
 
-AOV: 842.38
+5. AOV: 842.38
 
 
 ⭐ Monthly Sales Trend
 
-Sales fluctuate between 6.4M–7.2M monthly
+1. Sales fluctuate between 6.4M–7.2M monthly
 
-Strong peaks around June & October
+2. Strong peaks around June & October
 
-Lowest dip in February
+3. Lowest dip in February
 
 
 ⭐ Category-Wise Revenue
@@ -180,17 +169,17 @@ Top performing categories:
 
 ⭐ Order Status Breakdown
 
-Payment Method Distribution:
+1. Payment Method Distribution:
 
-Credit Card: 34.98%
+2. Credit Card: 34.98%
 
-Debit Card: 20.2%
+3. Debit Card: 20.2%
 
-Amazon Pay: 15.14%
+3. Amazon Pay: 15.14%
 
-UPI: 14.9%
+4. UPI: 14.9%
 
-Others (Net Banking, COD) follow
+5. Others (Net Banking, COD) follow
 
 
 
@@ -202,24 +191,24 @@ Others (Net Banking, COD) follow
 
 Examples:
 
-Memory Card 128GB
+    - Memory Card 128GB
 
-LED Desk Lamp
+    - LED Desk Lamp
 
-Mechanical Keyboard
+    - Mechanical Keyboard
 
-Smartwatch
+    - Smartwatch
 
-Gaming Mouse
+    - Gaming Mouse
 
 
 ⭐ Price vs Quantity (Bubble Chart)
 
-Higher-priced items show moderate sales
+- Higher-priced items show moderate sales
 
-Mid-priced items dominate quantity sold
+- Mid-priced items dominate quantity sold
 
-Strong cluster around unit price 295–310
+- Strong cluster around unit price 295–310
 
 
 ⭐ Quantity Sold by Category
